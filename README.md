@@ -1,6 +1,12 @@
 # clustering-dimensionality-reduction
 
-This project uses Apache Spark to cluster similar documents together so that documents sharing the same theme are placed in the same group and documents on very different topics are placed in separate groups. The following dataset is used : [20 Newsgroups Dataset](http://qwone.com/~jason/20Newsgroups/).
+This project provides a comparison of different clustering methods and dimensionality reduction methods to group similar words (taken from sentences) together based on their labels. 
+
+The project uses 3 different datasets :
+
+- Classic3 dataset : Contains 3 different topics (cisi, cran, med)
+- Classic4 dataset : Contains 4 different topics (cacm, cisi, cran, med)
+- BBC News dataset : Contains 5 different topics (business, entertainment, politics, sport, tech)
 
 This project was completed as part of the course Machine Learning for Data Science at University Paris Cité, France. Therefore the comments and analysis are written in French.
 
